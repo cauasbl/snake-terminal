@@ -1,24 +1,11 @@
-<h1 align="center">
-  🐍 Snake Terminal Game
-</h1>
+# 🐍 Snake Terminal Game
 
-<p align="center">
-  <i>Um remake do clássico Snake para terminal Windows, feito em C</i><br>
-  <img src="https://img.shields.io/badge/linguagem-C-blue.svg">
-  <img src="https://img.shields.io/badge/sistema-Windows-lightgrey.svg">
-  <img src="https://img.shields.io/badge/license-MIT-green.svg">
-</p>
+Um jogo da cobrinha (Snake) feito em linguagem C, jogável diretamente no terminal do Windows. Esse projeto foi desenvolvido como trabalho acadêmico para a disciplina de Programação Estruturada.
 
----
+## 🎮 Demonstração
 
-## 🎮 Sobre o Projeto
-
-Um remake moderno do clássico jogo da cobrinha (**Snake**) criado para rodar no terminal do **Windows**.  
-O jogo é um projeto acadêmico desenvolvido em **C**, utilizando:
-
-- Tipos Abstratos de Dados (**TAD**)
-- Manipulação do terminal via **ANSI Escape Codes**
-- Leitura direta do teclado para controle em tempo real
+![snake-gif](https://media.giphy.com/media/xUA7aZeLE2e0P7Znz2/giphy.gif)  
+*Imagem ilustrativa. O jogo roda no terminal do Windows, com controle por teclado.*
 
 ---
 
