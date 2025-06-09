@@ -53,5 +53,3 @@ output\projeto-snake.exe
 
 📌 Observações
 Este jogo foi desenvolvido e testado para Windows, usando as bibliotecas <conio.h> e <windows.h>.
-
-A pasta output/ já está pronta para uso com os arquivos gerados automaticamente.
