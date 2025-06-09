@@ -9,29 +9,6 @@ Um jogo da cobrinha (Snake) feito em linguagem C, jogável diretamente no termin
 
 ---
 
-## 📁 Estrutura do Projeto
-
-
-projeto-snake1/
-│
-├── include/ # Arquivos de cabeçalho (.h)
-│ ├── snake.h
-│ └── util.h
-│
-├── src/ # Código-fonte principal (.c)
-│ ├── main.c
-│ ├── snake.c
-│ └── util.c
-│
-├── output/ # Arquivos gerados na execução
-│ ├── projeto-snake.exe
-│ └── scores.txt
-│
-├── .gitignore
-├── LICENSE
-├── Makefile
-└── README.md
-
 ### 🛠️ Como Compilar
 
 Abra o terminal no diretório do projeto e execute:
@@ -41,7 +18,6 @@ make
 Isso irá compilar os arquivos e gerar o executável projeto-snake.exe dentro da pasta output/.
 ```
 
-▶️ Como Jogar
 Após compilar, execute o jogo com:
 
 ```
@@ -49,33 +25,29 @@ bash
 Copiar
 Editar
 output/projeto-snake.exe
-
 ```
+## 🚀 Como jogar
 
-Controles:
-W - Cima
+- Use as teclas **W**, **A**, **S**, **D** para mover a cobrinha.
+- Pressione **P** para pausar o jogo.
+- Pressione **Q** para sair durante a partida.
+- Coma a comida para crescer e aumentar sua pontuação.
+- Evite bater nas paredes ou em você mesmo.
 
-A - Esquerda
+## ⚙️ Funcionalidades
 
-S - Baixo
+- Interface baseada em texto (modo console).
+- Escolha de dificuldade: Fácil, Médio, Difícil.
+- Sistema de pontuação e high score salvo em arquivo (`output/scores.txt`).
+- Menus estilizados com arte ASCII.
+- Código modularizado com separação em arquivos `.c` e `.h`.
 
-D - Direita
+## 📜 Licença
 
-P - Pausar o jogo
+- Distribuído sob a licença MIT.
+- Confira mais detalhes no arquivo LICENSE.
 
-Q - Sair do jogo
-
-✨ Funcionalidades
-✅ Interface leve e responsiva via terminal
-✅ Pontuação com salvamento automático em scores.txt
-✅ Detecção de colisões (paredes e corpo da cobra)
-✅ Código modular usando TAD Snake
-
-📜 Licença
-Distribuído sob a licença MIT.
-Confira mais detalhes no arquivo LICENSE.
-
-<p align="center"> Desenvolvido com ❤️ por <strong>Cauã Sanches</strong> </p> ```
+<p align="center"> Desenvolvido por <strong>Cauã Sanches</strong> </p> ```
 
 GitHub: @cauasbl
 
