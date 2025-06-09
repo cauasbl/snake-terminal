@@ -1,12 +1,29 @@
+<h1 align="center">
+  🐍 Snake Terminal Game
+</h1>
 
-# 🐍 Snake Terminal Game (Projeto em C)
-
-Um remake clássico do jogo da cobrinha (Snake), desenvolvido totalmente em C para rodar no terminal do Windows.  
-Idealizado como projeto acadêmico, o jogo utiliza conceitos de TAD (Tipo Abstrato de Dado), controle de input direto do teclado e manipulação da tela via ANSI escape codes.
+<p align="center">
+  <i>Um remake do clássico Snake para terminal Windows, feito em C</i><br>
+  <img src="https://img.shields.io/badge/linguagem-C-blue.svg">
+  <img src="https://img.shields.io/badge/sistema-Windows-lightgrey.svg">
+  <img src="https://img.shields.io/badge/license-MIT-green.svg">
+</p>
 
 ---
 
-### 📁 Estrutura do Projeto
+## 🎮 Sobre o Projeto
+
+Um remake moderno do clássico jogo da cobrinha (**Snake**) criado para rodar no terminal do **Windows**.  
+O jogo é um projeto acadêmico desenvolvido em **C**, utilizando:
+
+- Tipos Abstratos de Dados (**TAD**)
+- Manipulação do terminal via **ANSI Escape Codes**
+- Leitura direta do teclado para controle em tempo real
+
+---
+
+## 📁 Estrutura do Projeto
+
 
 projeto-snake1/
 │
@@ -28,12 +45,6 @@ projeto-snake1/
 ├── Makefile
 └── README.md
 
-yaml
-Copiar
-Editar
-
----
-
 ### 🛠️ Como Compilar
 
 Abra o terminal no diretório do projeto e execute:
@@ -41,14 +52,19 @@ Abra o terminal no diretório do projeto e execute:
 ```bash
 make
 Isso irá compilar os arquivos e gerar o executável projeto-snake.exe dentro da pasta output/.
+```
 
 ▶️ Como Jogar
 Após compilar, execute o jogo com:
 
+```
 bash
 Copiar
 Editar
 output/projeto-snake.exe
+
+```
+
 Controles:
 W - Cima
 
@@ -58,24 +74,21 @@ S - Baixo
 
 D - Direita
 
-ESC - Sair do jogo
+P - Pausar o jogo
 
-🧠 Funcionalidades
-Modo terminal simples e leve
+Q - Sair do jogo
 
-Sistema de pontuação com salvamento automático (scores.txt)
+✨ Funcionalidades
+✅ Interface leve e responsiva via terminal
+✅ Pontuação com salvamento automático em scores.txt
+✅ Detecção de colisões (paredes e corpo da cobra)
+✅ Código modular usando TAD Snake
 
-Detecção de colisões (paredes e corpo da cobra)
+📜 Licença
+Distribuído sob a licença MIT.
+Confira mais detalhes no arquivo LICENSE.
 
-Código modular com TAD Snake
-
-Interface minimalista com ANSI escape codes
-
-🧾 Licença
-Este projeto está licenciado sob os termos da MIT License.
-
-🙋‍♂️ Autor
-Desenvolvido por Cauã Sanches
+<p align="center"> Desenvolvido com ❤️ por <strong>Cauã Sanches</strong> </p> ```
 
 GitHub: @cauasbl
 
@@ -83,5 +96,3 @@ GitHub: @cauasbl
 Este jogo foi desenvolvido e testado para Windows, usando as bibliotecas <conio.h> e <windows.h>.
 
 A pasta output/ já está pronta para uso com os arquivos gerados automaticamente.
-
->>>>>>> 89ecab1 (Adiciona .gitignore, LICENSE, Makefile e atualiza README.md)
