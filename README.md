@@ -9,21 +9,16 @@ Um jogo da cobrinha (Snake) feito em linguagem C, jogável diretamente no termin
 
 ---
 
-### 🛠️ Como Compilar
+## 🛠️ Como compilar
 
-Abra o terminal no diretório do projeto e execute:
+Este projeto é feito para Windows e pode ser compilado com o GCC (MinGW):
 
 ```bash
-make
-Isso irá compilar os arquivos e gerar o executável projeto-snake.exe dentro da pasta output/.
+gcc main.c snake.c game.c util.c -o output/projeto-snake.exe
 ```
 
 Após compilar, execute o jogo com:
-
 ```
-bash
-Copiar
-Editar
 output/projeto-snake.exe
 ```
 ## 🚀 Como jogar
@@ -48,8 +43,7 @@ output/projeto-snake.exe
 - Confira mais detalhes no arquivo LICENSE.
 
 <p align="center"> Desenvolvido por <strong>Cauã Sanches</strong> </p> ```
-
-GitHub: @cauasbl
+<p align="center"> GitHub: <strong>@cauasbl</strong> </p> ```
 
 📌 Observações
 Este jogo foi desenvolvido e testado para Windows, usando as bibliotecas <conio.h> e <windows.h>.
