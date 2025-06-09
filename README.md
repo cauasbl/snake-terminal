@@ -20,12 +20,12 @@ Não é necessário instalar bibliotecas adicionais. O jogo usa apenas recursos 
 📦 Compilação manual (recomendada no Windows)
 Abra o Prompt de Comando (CMD) na raiz do projeto e digite:
 ```bash
-gcc -I include src\*.c -o output\projeto-snake.exe -Wall -Wextra -O2
+gcc -I include src\*.c -o projeto-snake.exe -Wall -Wextra -O2
 ```
 ▶️ Execução
 Depois de compilar, rode o jogo com:
 ```bash
-output\projeto-snake.exe
+projeto-snake.exe
 ```
 ## 🚀 Como jogar
 
