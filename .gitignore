@@ -1,0 +1,18 @@
+# Executável
+output/projeto-snake.exe
+
+# Arquivo de pontuação (pode ser gerado em tempo de execução)
+output/scores.txt
+
+# Output duplicado e temporário
+src/output/
+
+# Arquivos de backup do Windows/IDE
+*.bak
+*.obj
+*.o
+*.log
+*.tmp
+
+# Configurações do VS Code
+.vscode/
